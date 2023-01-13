@@ -1,6 +1,6 @@
 # Sequence Analyzer
 
-This is my code to analyse sanger sequencing results from abi_files. This is specialized to my current needs, which is mainly confirming antibody cloning results.
+This is my code to analyse sanger sequencing results from .abi files. This is specialized to my current needs, which is mainly confirming antibody cloning results.
 
 `abi_analysis.py` has several functions that are used in succession to analyze the sequencing files. The general workflow is listed below:
 * `list_of_abi_files = get_seq_files(directory, key = None)`
