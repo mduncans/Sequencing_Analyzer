@@ -1,10 +1,8 @@
 from Bio.Seq import translate as t
-from Bio.Seq import Seq
 from tqdm import tqdm
 from Bio import SeqIO
 import pandas as pd
 import glob
-import os
 import re
 
 
