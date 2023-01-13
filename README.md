@@ -3,10 +3,10 @@
 This is my code to analyse sanger sequencing results from abi_files. This is specialized to my current needs, which is mainly confirming antibody cloning results.
 
 `abi_analysis.py` has several functions that are used in succession to analyze the sequencing files. The general workflow is listed below:
-    * `list_of_abi_files = get_seq_files(directory, key = None)`
-    * `seqs_dict = create_dna_seqs_dict(list_of_abi_files, reverse = True)`
-    * `trimmed_dna_seqs = trim_dna_seqs(seqs_dict, starting_seq = string_of_dna, length = int_length)`
-    * `pro_seqs_df = create_protein_seqs(trimmed_dna_seqs)`
+* `list_of_abi_files = get_seq_files(directory, key = None)`
+* `seqs_dict = create_dna_seqs_dict(list_of_abi_files, reverse = True)`
+* `trimmed_dna_seqs = trim_dna_seqs(seqs_dict, starting_seq = string_of_dna, length = int_length)`
+* `pro_seqs_df = create_protein_seqs(trimmed_dna_seqs)`
 
 `get_seq_files` retrieves all the .abi files from the input `directory`.
 
